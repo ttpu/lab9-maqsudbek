@@ -1,0 +1,9 @@
+{
+  "name": "ARMv7 Development",
+  "dockerFile": "Dockerfile",
+  "settings": {},
+  "extensions": [
+    "dan-c-underwood.arm"
+  ],
+  "postCreateCommand": "sudo apt update && sudo apt install -y gcc-arm-linux-gnueabihf binutils-arm-linux-gnueabihf qemu-user gdb-multiarch"
+}
